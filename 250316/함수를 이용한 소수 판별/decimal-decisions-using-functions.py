@@ -2,7 +2,7 @@ a, b = map(int, input().split())
 
 # Please write your code here.
 def sm(n):
-    for i in range(2, n):
+    for i in range(1, n):
         if n % i == 0:
             return 0
     return n
