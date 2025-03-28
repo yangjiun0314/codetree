@@ -6,7 +6,6 @@ def yoonyear(n):
         return False
     if n % 4 == 0:
         return True
-    return True
 
 if yoonyear(y) == True:
     print("true")
